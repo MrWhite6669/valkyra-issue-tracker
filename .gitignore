@@ -52,3 +52,24 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+.vscode/
+*.DS_Store
+
+# Angular
+node_modules/
+dist/
+.angular/
+.env
+*.tsbuildinfo
+
+# OS-specific
+Thumbs.db
+.DS_Store
