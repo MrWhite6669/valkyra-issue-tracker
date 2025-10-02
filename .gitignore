@@ -70,6 +70,10 @@ dist/
 .env
 *.tsbuildinfo
 
+# EF Core Migrations (auto-generated)
+Valkyra.Infrastructure/Migrations/*.Designer.cs
+Valkyra.Infrastructure/Migrations/*ModelSnapshot.cs
+
 # OS-specific
 Thumbs.db
 .DS_Store
